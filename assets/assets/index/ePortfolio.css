@@ -1,0 +1,16 @@
+#title {
+    text-align: center;
+    text-emphasis: bold;
+    box-sizing: border-box;
+    box-shadow: inset;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#p {
+    text-align: center;
+    font-size: large;
+    box-sizing: border-box;
+}
