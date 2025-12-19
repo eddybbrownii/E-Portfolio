@@ -14,3 +14,9 @@
     font-size: large;
     box-sizing: border-box;
 }
+#footer {
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
