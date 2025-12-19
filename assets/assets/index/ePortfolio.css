@@ -1,3 +1,7 @@
+* {
+    background-image:url('') ;
+}
+
 #title {
     text-align: center;
     text-emphasis: bold;
@@ -18,5 +22,5 @@
     box-sizing: border-box;
     text-align: center;
     flex-wrap: wrap;
-    
+
 }
