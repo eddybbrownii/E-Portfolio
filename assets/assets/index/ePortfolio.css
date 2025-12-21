@@ -148,6 +148,7 @@ form {
     display: flex;
     max-width: 600px;
     flex-direction: column;
+    padding: 0 24px;
 }
 input, textarea {
     margin-bottom: 24px;
@@ -172,4 +173,51 @@ input, textarea {
 }
 .footer_link {
     padding: 16px;
+}
+
+/* Small Phones, Large Phones,  and Tablets*/
+@media (max-width:720px) {
+    .row {
+        flex-direction:column;
+    
+}
+.home_discription {
+    margin-bottom: 24px ;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+.subheader {
+    text-align: center;
+    font-size: 20px;
+}
+ul {
+    display: none;
+}
+.section__description{
+    flex-direction: column;
+}
+.section__description-wrapper{
+    width: 100%;
+}
+.about__img-wrapper {
+    width: 100%;
+}
+#discord .section__description {
+    flex-direction: column-reverse;
+}
+footer {
+    padding: 40, 240px;
+}
+.footer_logo {
+    max-width: 360px;
+}
+.footer_link {
+    padding: 4px;
+    font-size: 10px;
+}
+.footer_links {
+    margin-bottom: 24px;
+}
 }
