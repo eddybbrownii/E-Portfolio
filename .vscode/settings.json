@@ -10,5 +10,6 @@
     "html-fmt-vscode.indentSize": 5,
     "preview-html.retainContextWhenHidden": true,
     "htmlScss.isAngularProject": false,
-    "html-to-css-autocompletion.triggerCharacters": true
+    "html-to-css-autocompletion.triggerCharacters": true,
+    "livePreview.defaultPreviewPath": "/index.html"
 }
